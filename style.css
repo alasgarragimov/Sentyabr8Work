@@ -1,0 +1,95 @@
+.header_container {
+    padding: 20px;
+    background-color: #2c2c2ce2;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.header_container h1 {
+    font-size: 32px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head_content ul {
+    display: flex;
+    gap: 12px;
+}
+
+.head_content ul li {
+    list-style: none;
+}
+
+.head_content ul li a {
+    color: #fff;
+}
+
+
+/* ############## START MAIN PAGE ############## */
+
+.main_content {
+    width: 100hv;
+    display: flex;
+}
+
+.left_content {
+    flex-basis: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.input_con input {
+    padding: 4px 10px;
+    border: none;
+    background-color: #d8d7d7;
+}
+
+.right_content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    flex-basis: 20%;
+    background-color: #aaa8a8;
+}
+
+.right_content h2 {
+    font-size: 22px;
+}
+
+.posts_cont ul {
+    padding-left: 30px;
+}
+
+.posts_cont ul li a {
+    color: #000;
+}
+
+.right_content h3 {
+    font-size: 22px;
+}
+
+.categories_cont ul li a {
+    color: #000;
+}
+
+.categories_cont ul {
+    padding-left: 30px;
+}
+
+
+/* #################### FOOTER PAGE ############### */
+
+.footer_cont {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2ce2;
+    height: 100px;
+    color: #eee;
+}
